@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fab_Bag</title>
+        <link rel="stylesheet" href="cart.css">
+    </head>
+    <body>
+        <div class="container">
+
+           
+
+
+            <div id="cartcont">
+                <div class="itemsdetail">
+                    <div><h1>My Cart</h1></div>
+                    <hr>
+                    <div class="product">
+                        <h4>Product</h4>
+                        <p>QTY</p>
+                        <p>PRICE</p>
+                    </div>
+                    <hr>
+                    <div class="list">
+                        <img class="cartimg" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_sPageBanner-Skincare--Reveal-Bous-Product.gif?v=1629009087">
+                        <p class="name">The Lash & Line August Fab Bag 1 Month</p>
+                        <input type="number" id="qty">
+                        <p class="price">Rs.599.00</p>
+                        <button onclick="cancel()">remove</button>
+                    </div> 
+                    <hr> 
+               </div>
+
+                <div class="pricedetails">
+                    <div id="total">
+                        <h3>TOTAL PRICE:</h3>
+                        <h3 id="rs"></h3>
+                    </div>
+                    <div id="update"><h3 onclick="update()">UPDATE</h3></div>
+                    <div id="checkout"><h3 onclick="gotopayment()">CHECKOUT</h3></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<script src="cart.js"></script>
