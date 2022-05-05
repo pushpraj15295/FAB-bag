@@ -1,0 +1,76 @@
+#main_header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #252525;
+    color: white;
+    padding: 8px 10px 8px 0px;
+    text-transform: uppercase;
+   
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 35px 12px 25px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+   
+}
+#logo_img{
+    height: 50px;
+    width: 100%;
+}
+#sub_logo{
+    text-transform: uppercase;
+    padding-top: 10px;
+    
+}
+#sub_logo a{
+    color: #e8bb5f;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;   
+}
+#icons{
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+    color: #e8bb5f;
+    font-size: 18px;
+    padding-top:13px;
+}
+#lang_menu{
+    height: 200px;
+    width: 200px;
+    float: right;
+    padding: 10px;
+    position: absolute;
+    margin-left: 1130px;
+    margin-top: -20px;
+    /* box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px; */
+}
+#lang1{
+    background-color: white;
+    position: fixed;
+}
+#lang1 > div{
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(241, 236, 236);
+}
+#lang1 > div span a{
+    text-decoration: none;
+    color: #686666;
+    font-size: 15px;
+}
+#lang1 > div:nth-child(4){
+    border: none;
+}
+#language{
+    color: #686666;
+    font-size: 15px;
+}

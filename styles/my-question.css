@@ -1,0 +1,92 @@
+#my_question_div{
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+}
+#imges{
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 100px);
+    gap: 40px;
+    text-align: center;
+}
+#imges2{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;  
+}
+#imges3{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;  
+}
+#imges3 > div{
+    padding: 20px;
+    height: 150px;
+
+}
+#imges2 > div{
+    text-align: center;
+   
+    padding: 20px;
+    height: 150px;
+}
+#imges > div{
+    text-align: center;
+}
+#img_div{
+    text-align: center;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+#heading{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(59, 58, 58);
+    text-transform: uppercase;
+    
+}
+hr{
+    color: rgb(236, 181, 78);
+    margin-top: 20px;
+}
+#content>h2{
+    text-align: center;
+    color: rgba(24, 23, 23, 0.398);
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+#arrow{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+a{
+    color: black;
+}
+#submit_btn{
+    padding: 10px;
+    border: 1px solid green;
+    color: green;
+    text-transform: uppercase;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+#submit_btn:hover{
+
+    background-color: green;
+    color: white;
+    transition: all 0.5s ease;
+}

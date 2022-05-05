@@ -1,0 +1,92 @@
+#login_div{
+    display: flex;
+    width: 100%;
+    min-height: 500px;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+#login_div > div{
+    width: 30%;
+}
+/* #login_div > div:nth-child(2){
+    border: 1px solid red;
+} */
+#login_content{
+    padding: 25px;
+}
+#login_heading{
+    text-align: center;
+    font-weight: 400;
+}
+.log{
+
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+#login_fb{
+    background-color: #2751ab;
+}
+#login_google{
+    background-color: #e04534;
+}
+.padding{
+    padding: 10px 20px 10px 20px;
+    margin-top: 12px;
+}
+.input_div{
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(116, 114, 114);
+}
+input{
+    width: 100%;
+    height: 40px;
+    margin-top: 13px;
+}
+.red{
+    color: red;
+}
+#forgetpass_div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    font-size: 14px;
+}
+.button{
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #eab54b;
+    border: none;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    color: rgb(80, 78, 78);
+}
+.button:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.5s ease;
+}
+#or_div{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: rgb(107, 103, 103);
+}
+#or_div > div:nth-child(1){
+    width: 40%;
+    border-bottom: 1px solid rgb(107, 103, 103);
+    margin-bottom: 10px;
+} 
+#or_div > div:nth-child(3){
+    width: 40%;
+    border-bottom: 1px solid rgb(107, 103, 103);
+    margin-bottom: 10px;
+} 
