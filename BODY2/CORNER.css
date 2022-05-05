@@ -1,0 +1,291 @@
+#MAINBOX{
+    height: 590PX;
+    width: 100%;
+    border: PX solid;
+    display: grid;
+    grid-template-rows: repeat(3,14% 33% 10% 43%);
+    grid-template-columns: repeat(1,100%);
+   
+ }
+ #MAINBOX>div{
+     border: px solid;
+ }
+ #box1{
+     text-align: center;
+     background-color: white;
+ }
+ #box1>p{
+     margin-top: 29px;
+     font-size: larger;
+     color: black;
+ }
+ #box2{
+     display: grid;
+     grid-template-columns: repeat(8,12.5%);
+     grid-template-rows: repeat(1,100%);
+ }
+ #box2>div{
+   border: px solid;
+ }
+ #box2>div>img{
+     height: 100%;
+     width: 100%;
+  /* box-shadow: rgba(122, 122, 122, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px; */
+ }
+ #box4{
+     background-color: #e5b95f;
+     min-height: 30vh;
+ }
+ .container {
+     position: relative;
+     width: 100%;
+     background-color: rgb(49, 47, 47);
+   }
+   
+   .image {
+     opacity: 1;
+     display: block;
+     
+     height: 100%;
+     height: auto;
+     transition: .5s ease;
+     backface-visibility: hidden;
+   }
+   
+   .middle {
+     transition: .5s ease;
+     opacity: 0;
+     position: absolute;
+     top: 40%;
+     left: 30%;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     text-align: center;
+   }
+   .container:hover .image {
+     opacity: 0.3;
+   } 
+   .container:hover .middle {
+     opacity: 1;
+    
+   }
+   .text {
+     content: ' ';
+     opacity: 1;
+     font-size: 16px;
+     padding: 10px 32px;
+     background: url(https://instafeed.nfcube.com/assets/img/instagram-icon.svg) no-repeat center center;
+     background-size: 20px 20px;
+     position: absolute;
+    
+   }
+   /* #box5{
+       height: 80%;
+       width: 72%;
+       border: 1px solid;
+       margin: auto;
+       margin-top: 1.5%;
+       display: grid;
+       place-items: center;
+       align-items: center;
+   } */
+   #pop-up{
+     height: 400px;
+     width: 60%;
+     border: px solid;
+     margin: auto;
+     margin-top: -40%;
+     background-color: aqua;
+   }
+   .slider{
+     height: 250px;
+     width: 90%;
+     margin: auto;
+     position: relative;
+     display: grid;
+     place-items: center;
+     overflow: hidden;
+     border: px solid;
+ 
+   }
+   .slide-track{
+     display: flex;
+     width:  calc(250px * 20);
+     animation: scroll 40s linear infinite;
+   }
+   @keyframes scroll {
+     0% {
+       transform: translateX(0);
+     }
+     100%{
+       transform: translateX(calc(-250px * 10));
+     }
+   }
+   .slide{
+     height: 250px;
+     width: 250px;
+     display: flex;
+     align-items: center; 
+     perspective: 100px;
+     padding: 15px;
+     margin-top: -0.4%;
+   }
+   .slider::before,
+   .slider::after{
+     background: linear-gradient(to right, rgba(255,255,255,1) 0%,
+     rgba(255,255,255,0) 100%);
+     contain:  '';
+     height: 100%;
+     position: absolute;
+     width: 15%;
+     z-index: 2;
+   }
+   .slider::before{
+     left: 0;
+     top: 0;
+   }
+   .slider::after{
+     right: 0;
+     top: 0;
+     transform: rotateZ(180deg);
+   }
+   
+   .modal {
+    
+     position: fixed;
+     z-index: 8;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     overflow: auto;
+     background-color: rgb(0, 0, 0);
+     background-color: rgba(0, 0, 0, 0.4);
+   }
+   .modal-content {
+     margin: 50px auto;
+     border: px solid rgb(94, 24, 24);
+     width: 60%;
+     height: 600px;
+     display: grid;
+     grid-template-columns: repeat(2,60% 40%);
+     grid-template-rows: repeat(1,100%);
+   }
+   .modal-content>div{
+       border: px solid;
+   }
+ 
+ #xman{
+ display: grid;
+ grid-template-rows: repeat(2, 15% 85%);
+ grid-template-columns: repeat(1,100%);
+ background-color: white;
+ }
+ 
+ #xman>div{
+ border: px solid;
+ }
+ .close {
+   color: rgb(241, 231, 231);
+   float: right;
+   font-size: 28px;
+   font-weight: bold;
+ }
+ .close:hover,
+ .close:focus {
+   color: rgb(111, 11, 11);
+   text-decoration: none;
+   cursor: pointer;
+ }
+ #xman1{
+   display: flex;
+ }
+ #xman1>img{
+  height: 65%;
+  margin-top: 3%;
+  margin-left: 3%;
+ }
+ .close{
+ margin-left: 55%;
+ color: grey;
+ font-size: 30px;
+ }
+ #xman1>p>a{
+   text-decoration: none;
+ color:black ;
+ font-size: 20px;
+ font-weight: 50px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ margin-left: 15%;
+ }
+ #xman2>p{
+ width: 90%;
+ margin: auto;
+ font-size: 20px;
+ margin-top: 7%;
+ color: rgb(85, 82, 82);
+ }
+ #xman2::-webkit-scrollbar {
+   width: 20px;
+ }
+ 
+ /* Track */
+ #xman2::-webkit-scrollbar-track {
+   box-shadow: inset 0 0 5px grey; 
+   border-radius: 10px;
+ }
+  
+ /* Handle */
+ #xman2::-webkit-scrollbar-thumb {
+   background: rgb(217, 214, 214); 
+   border-radius: 15px;
+ }
+ 
+ /* Handle on hover */
+  
+ #xman2::-webkit-scrollbar-thumb:hover {
+   background:rgb(105, 102, 102); 
+ }
+ #xman2 {
+   -ms-overflow-style: none;  /* IE and Edge */
+   scrollbar-width: none;  /* Firefox */
+   overflow-y: scroll;
+ }
+ #line{
+   width: 90%;
+   /* background:linear-gradient(to right, #ff105f, #ffad06); */
+ 
+   border: 0.5px solid;
+   margin: auto;
+   color: rgb(236, 197, 126);
+ }
+ button{
+  height: 20px;
+  width: 20px;
+  border: none;
+  /* color: #f6f3ed; */
+  font-size: 20px;
+  /* background:linear-gradient(to right, #ff105f, #ffad06); */
+  border-radius: 15px;
+ background: rgb(144, 216, 216);
+ margin: auto;
+ 
+ }
+ #butn{
+   height: 30px;
+   width: 90%;
+   border: px solid;
+   margin: auto;
+   display: flex;
+   /* justify-content: space-between; */
+   margin-top: 5px;
+   
+ }
+ 
+ #main-container{
+ position: absolute;
+ width: 500000px;
+ }
+ #butn>button:hover{
+   background: teal;
+ }
