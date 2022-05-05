@@ -1,0 +1,47 @@
+.h1{
+    font-weight:400;
+}
+#cont-div{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    /* border: 1px solid black; */
+    display: flex;
+}
+#box-a , #box-b{
+   margin-bottom: 50px;
+    margin-top: 60px; 
+}
+#box-a{
+    width: 70%;
+}
+#box-b{
+    width: 30%;
+}
+.input{
+    width:45%;
+    height: 46px;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+#textarea{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    border:none;
+}
+#textarea:hover{
+
+   border: 1px solid sandybrown;
+}
+.input:hover{
+    border: 1px solid sandybrown;
+}
+#btn{
+    color:black;
+    padding:12px;
+    width:92%;
+    text-align: left;
+}
+#btn:hover{
+    background-color:sandybrown;
+    cursor: pointer;
+}

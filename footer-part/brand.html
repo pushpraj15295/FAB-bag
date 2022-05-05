@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="styles/brand.css">
+     <link rel="stylesheet" href="styles/foot.css">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Poppins:wght@200;300;400;500&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+        <div></div>
+        <div id="brand_div">
+             <div id="heading_div"><h2><i>ASSOCIATED BRANDS</i></h2></div>
+             <div id="brand_container"></div> 
+        </div>
+
+        <footer id="footer"></footer>
+</body>
+</html>
+<script type="module">
+      import footerdata from "../components/footer.js"
+          document.getElementById("footer").innerHTML = footerdata();
+
+    let brand = [{image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/APS_LOGO_NEW_compact.png?v=1548834005'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Why_Wait_Rectangle_Logo_compact.png?v=1548837051'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/SFR-Logo_compact.png?v=1548836963'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/sugar_1_compact.jpg?v=1548837170'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Vivel.jpg?v=1558006265'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/ZIRH.jpg?v=1558006318'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/ZA.jpg?v=1558006308'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/yuana.jpg?v=1558006301'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/wild_earth.png?v=1558006294'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/wella-logo.jpg?v=1558006282'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/votre.jpg?v=1558006273'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Victoria.jpg?v=1558006259'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/vichy.jpg?v=1558006254'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/VERT.jpg?v=1558006248'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/veet-logo-WB_480x480.jpg?v=1558006241'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Vedantika.jpg?v=1558006233'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/vedaearth-logo-final.jpg?v=1558006227'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/varaaaaaaa.jpg?v=1558006218'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/vantiv-logo.jpg?v=1558006212'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Vana.jpg?v=1558006206'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Untitled-2.jpg?v=1558006169'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/tvam.jpg?v=1558006152'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Tvakh-logo-wb-2.png?v=1558006144'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/tttv.png?v=1558006139'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Toni.jpg?v=1558006131'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/tommy.jpg?v=1558006123'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Tijori-Logo.jpg?v=1558006115'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/The-Herbel-Blend-Logo.jpg?v=1558006110'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/theBlam.jpg?v=1558006091'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/the_Soap_Company.jpg?v=1558006085'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/THC.jpg?v=1558006079'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Thalgo.jpg?v=1558006070'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/TBS.jpg?v=1558006062'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/suganda.png?v=1558006036'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/splurge.jpg?v=1558002764'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/sk2.jpg?v=1558002732'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Soap_Square.png?v=1558002757'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/skinyoga.jpg?v=1558002747'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/SKINN.png?v=1558002740'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Sisley.jpg?v=1558002725'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Shiseido.jpg?v=1558002717'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Seer_Secrets_WB_Logo.jpg?v=1558002710'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/seduction_las_vegas.jpg?v=1558002697'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/sebastian.jpg?v=1558002690'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Seba-Logo.jpg?v=1558002646'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/seasoul.png?v=1558002630'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/SandLogo.jpg?v=1558002618'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Sally-Hansen.jpg?v=1558002605'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/rusk.jpg?v=1558002591'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/ROC.png?v=1558002564'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Remy-Laure.jpg?v=1558002441'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Redken.jpg?v=1558002412'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Purple-Logo.jpg?v=1558002394'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Portico-Spa.jpg?v=1558002381'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Philosophy.jpg?v=1558002350'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Perry-Ellis.jpg?v=1558002333'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/PEP_LOGO.jpg?v=1558002311'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/parachute.jpg?v=1558002282'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/palmers-logo.jpg?v=1558002270'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Purely-Pro.jpg?v=1558002246'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Palladio.jpg?v=1558002206'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/OZORI.jpg?v=1558002195'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Osmo.jpg?v=1558002180'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/origins.jpg?v=1558002168'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Opulence_Logo_high_res_ac21226a-3c08-49c2-afd7-99a480b98ef1.jpg?v=1558002117'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/opi.jpg?v=1558002043'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Ohria-Logo.jpg?v=1558001997'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/ofra.jpg?v=1558001984'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/nyx.jpg?v=1558001959'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/nykaa.png?v=1558001947'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/nyassa.jpg?v=1558001936'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/nirvaana-logo_480x480.jpg?v=1558001924'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/NELF.jpg?v=1558001900'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/MY-Glamm.jpg?v=1558001773'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/MUA.jpg?v=1558001696'},
+  
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Motives.jpg?v=1558001681'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Mont-Blanc.jpg?v=1558001660'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/mondsub-logo-wb.jpg?v=1558001635'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/meiji.jpg?v=1558001623'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/max.jpg?v=1558001610'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Matra-logo.jpg?v=1558001599'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Mary-Kay.jpg?v=1558001590'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Manna_Kadar_37d5c620-ee2a-46bb-91e1-4fd865d6c29a.jpg?v=1558001577'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/makeup_revolution.png?v=1558001567'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Major_Crush.jpg?v=1558001539'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Main_Logo2.jpg?v=1558001526'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/m_caffeine.jpg?v=1558001516'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Lord.jpg?v=1558001489'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/LOccitane.jpg?v=1558001468'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/LizClaiborne.jpg?v=1558001438'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Livon.png?v=1558001410'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/LA-Splash_480x480.jpg?v=1558001399'},
+    {image :'https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Luis_and_Luth.jpg?v=1558001498'}]
+   
+          brand.forEach(function(el){
+
+            console.log("barnd:",el.image)
+            let main =  document.getElementById("brand_container");
+
+              let box = document.createElement('div');
+
+               let imag = document.createElement('img')
+               imag.src = el.image
+               box.append(imag)
+              main.appendChild(box);
+          })
+    
+
+      
+  </script>
