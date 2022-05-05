@@ -1,0 +1,43 @@
+#my_ac_div{
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+}
+#my_ac_div > div{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(195, 190, 190);
+    border-top: 1px solid rgb(195, 190, 190);
+    margin-top: 25px;
+}
+h3{
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+.color{
+    color:rgb(59, 58, 58) ;
+}
+
+.size{
+    font-size: 14px;
+}
+#address_div{
+    width: 80%;
+    margin: auto;
+}
+#address_btn{
+    padding: 7px 25px 7px 25px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: white;
+    border: 1px solid rgb(59, 58, 58);
+}
+#address_btn:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.5s ease;
+}

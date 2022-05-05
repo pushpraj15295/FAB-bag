@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Poppins:wght@200;400;500&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/common_style.css">
+    <link rel="stylesheet" href="./styles/checkout.css">
+    <title>Checkout</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="left_div">
+            <div id="logo_div">
+                <center>
+                    <img id="logo"
+                        src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/FABBAG-LOGO_96ac9306-4c81-4ab8-8d2b-4e818eed7f76_2048x.png?v=1606482289"alt="">
+                        <a href="">Cart</a>&nbsp;<i class="fa-solid fa-angle-right"></i>&nbsp;&nbsp;
+                        <a href="Information.html">Information</a>&nbsp;<i class="fa-solid fa-angle-right"></i>&nbsp;&nbsp;
+                        <a href="">Shipping</a>&nbsp;<i class="fa-solid fa-angle-right"></i>&nbsp;&nbsp;
+                        <a href="">Payment</a>
+                </center>
+            </div>
+            <div id="info">
+                <div id="info_email">
+                    <h3>Contact information </h3>
+                    <span class="text"> Already have an account?<a href="">Log in </a> </span>
+                </div>
+                <script>
+                    var userArr = JSON.parse(localStorage.getItem("userData"))
+                </script>
+                <div id="email_data">
+                    <div><img style="height: 50px; width: 50px;" src="https://w7.pngwing.com/pngs/831/88/png-transparent-user-profile-computer-icons-user-interface-mystique-miscellaneous-user-interface-design-smile-thumbnail.png" alt=""></div>
+                    <div class="text"><span>Jitendra sharma</span>(<span>shamracs8853@gmail.com</span>) <br> <a href="">Log Out</a></div>
+                </div>
+                <input type="email" class="in_put" id="email" placeholder="Email">
+                <input type="checkbox" id="checkbox"><label for="email" class="text"> Email me with news and offers</label>
+                <div id="info_email">
+                    <h3>Shipping address </h3>
+                </div>
+                <select name="country" id="country" class="in_put2" aria-placeholder="Country/region">
+                    <option value="india">India</option>
+                </select>
+                <div class="flex">
+                    <input type="text" class="in_put2 margin" id="first_name" placeholder="First Name">
+                    <input type="text" class="in_put2 margin" id="last_name" placeholder="Last Name">
+                </div>
+                <input type="text" id="company" class="in_put2 margin" placeholder="Company(optionnal)">
+                <input type="text" id="Address" class="in_put2 margin" placeholder="Address">
+                <input type="text" id="apartment" class="in_put2 margin" placeholder="Apartment, suite, etc (optionnal)">
+                <div class="flex">
+                    <input type="text" class="in_put2 margin width" id="city" placeholder="City" style="width: 32%;">
+                    <select name="state" id="state" class="in_put2 margin width" style="width: 32%;">
+                        <option value="assam">Assam</option>
+                        <option value="bihar">Bihar</option>
+                    </select>
+                    <input type="text" class="in_put2 margin width" id="pin" placeholder="Pin Code" style="width: 32%;" >
+                </div>
+                <input type="text" class="in_put2 margin " id="number" placeholder="Phone" >
+                <input type="checkbox" id="save_next_time"><label for="save" class="text margin"> Save this information for next time </label>
+            </div>
+            <div id="continue_btn_div">
+                <div id="return_div"><span class="text"><i class="fa-solid fa-angle-left"></i> &nbsp; Return to cart</span></div>
+                <div><button id="continue_btn">Continue to Shipping</button></div>
+            </div>
+            <div id="policy_div">
+                <a href="">Refund policy</a>&nbsp;&nbsp;
+                <a href="Information.html"> Privacy policy</a>&nbsp;&nbsp;
+                <a href=""> Terms of service</a>&nbsp;&nbsp;
+            </div>
+        </div>
+        <div id="right_div">
+           <div id="right_div_container">
+                <div id="box">
+                    <div id="img_div"><img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Makeup-Reveal-1.gif?v=1651562695" alt=""></div>
+                    <div id="content"><span>The AweSummer May Fab Bag</span><br><span>1 Month</span></div>
+                    <div id="price"><span>₹1,198.00</span></div>
+                </div>
+                <div id="discount_div">
+                    <div id="input_box"><input type="text" id="code" placeholder="Discount Code" class="in_put"></div>
+                    <div id="apply_btn_div"><button id="apply_btn" class="in_put">Apply</button></div>
+                </div>
+                <div id="discount_div">
+                    <div><h3 class="text" id="price">Subtotal</h3><span class="text">Shipping</span></div>
+                    <div><h3 class="text" id="price">₹1,198.00 </h3><span class="text">Calculated at next step </span></div>
+                </div>
+                <div id="total_div">
+                    <div id="total">Total</div>
+                    <div id="total_price"><h1><span class="text">INR</span> ₹1,198.00 </h1></div>
+                </div>
+           </div>
+        </div>
+    </div>
+</body>
+
+</html>
