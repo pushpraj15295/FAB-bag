@@ -357,7 +357,7 @@ let finalCart =  JSON.parse(localStorage.getItem("cart"))|| []
 
     localStorage.setItem("cart", JSON.stringify(finalCart))  
 
-    window.location.href = "cart.html"
+        
     }
     else{
 
