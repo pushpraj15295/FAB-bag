@@ -36,7 +36,7 @@
      background-color: #e5b95f;
      min-height: 30vh;
  }
- .container {
+ #box2>.container {
      position: relative;
      width: 100%;
      background-color: rgb(49, 47, 47);
@@ -259,7 +259,7 @@
    margin: auto;
    color: rgb(236, 197, 126);
  }
- button{
+ #butn>button{
   height: 20px;
   width: 20px;
   border: none;
