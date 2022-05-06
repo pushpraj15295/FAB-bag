@@ -356,6 +356,7 @@ let finalCart =  JSON.parse(localStorage.getItem("cart"))|| []
 
 
     localStorage.setItem("cart", JSON.stringify(finalCart))  
+    document.location.href = "../cartpage/cart.html" 
 
         
     }
@@ -400,7 +401,7 @@ let finalCart =  JSON.parse(localStorage.getItem("cart"))|| []
 
     localStorage.setItem("cart", JSON.stringify(finalCart))  
 
-    window.location.href = "cart.html"
+    document.location.href = "../cartpage/cart.html" 
 
     }
 
@@ -461,7 +462,7 @@ let finalCart =  JSON.parse(localStorage.getItem("cart"))|| []
 
 
   localStorage.setItem("cart", JSON.stringify(finalCart))  
-  window.location.href = "cart.html"
+  document.location.href = "../cartpage/cart.html" 
 
   }
 
@@ -513,7 +514,7 @@ let finalCart =  JSON.parse(localStorage.getItem("cart"))|| []
            finalCart.push(cartData)
 
   localStorage.setItem("cart", JSON.stringify(finalCart))  
-  window.location.href = "cart.html"
+  document.location.href = "../cartpage/cart.html"  
   }
 
 
