@@ -134,12 +134,12 @@ function sum1(){
    modalOne1.style.display = "block";
   
 }
-document.querySelector("#biman1").addEventListener("click",sum1);
-function sum1(){
-    let modalOne1 = document.querySelector("#modalOne1");
-   modalOne1.style.display = "block";
+// document.querySelector("#biman1").addEventListener("click",sum2);
+// function sum2(){
+//     let modalOne1 = document.querySelector("#modalOne1");
+//    modalOne1.style.display = "block";
   
-}
+// }
 function fun3(){
     let modalOne1 = document.querySelector("#modalOne2");
    modalOne1.style.display = "none";
