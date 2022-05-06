@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
+#footer {
+  height: 500px;
+}
 *{
     margin: 0;
     padding: 0;
@@ -66,7 +68,7 @@ ul li a{
 #icon{
    
     text-align: center;
-    aspect-ratio: 1/1;
+
 }
 #icon>a{
     /* display:inline; */
