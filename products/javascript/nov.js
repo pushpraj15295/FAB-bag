@@ -1,3 +1,13 @@
+
+document.getElementById("cart").addEventListener("mouseover", change)
+document.getElementById("cart").addEventListener("mouseout", mouseout)
+document.getElementById("desc").addEventListener("click", desc)
+document.getElementById("plans").addEventListener("click", plans)
+document.getElementById("policy").addEventListener("click", policy)
+document.getElementById("reviews").addEventListener("click", reviews)
+
+
+
 let btnDetail =  document.getElementById("btnDetail")
 
 
@@ -34,19 +44,19 @@ function desc(){
 
     let ul = document.createElement("ul")
 
-    li1 = document.createElement("li")
+    let li1 = document.createElement("li")
     li1.innerText = "SUGAR Born To Wing Gel Eyeliner of your choice!*"
 
-    li2 = document.createElement("li")
+    let li2 = document.createElement("li")
     li2.innerText = "C2P Pro Epic Matte Lip Ink OR BRICK New York Ultimate Matte Liquid Lipstick of your choice!*"
 
-    li3 = document.createElement("li")
+    let li3 = document.createElement("li")
     li3.innerText = "e’clat superior Fadeout – Pigment Correcting Serum"
 
-    li4 = document.createElement("li")
+    let li4 = document.createElement("li")
     li4.innerText = "K Bizz - 2 in 1 - Lip Scrub & Balm"
 
-    li5 = document.createElement("li")
+    let li5 = document.createElement("li")
     li5.innerText = "Bonus*"
    
     ul.append(li1, li2, li3, li4, li5)
@@ -155,7 +165,7 @@ function reviews(){
     btn.innerText = "write a review"
     btn.onclick =  function writeReview()
     {
-        e = document.getElementById('showform')
+        let e = document.getElementById('showform')
     
 
         if(e.style.display == 'block')

@@ -1,3 +1,10 @@
+document.getElementById("cart").addEventListener("mouseover", change)
+document.getElementById("cart").addEventListener("mouseout", mouseout)
+document.getElementById("desc").addEventListener("click", desc)
+document.getElementById("plans").addEventListener("click", plans)
+document.getElementById("policy").addEventListener("click", policy)
+document.getElementById("reviews").addEventListener("click", reviews)
+
 let btnDetail =  document.getElementById("btnDetail")
 
 
@@ -34,16 +41,16 @@ function desc(){
 
     let ul = document.createElement("ul")
 
-    li1 = document.createElement("li")
+    let li1 = document.createElement("li")
     li1.innerText = "SUGAR Wonder Woman 24 HR Lip Lacquer of your choice!*"
 
-    li2 = document.createElement("li")
+   let  li2 = document.createElement("li")
     li2.innerText = "Coco Soul Hair and Scalp Cleanser/Shampoo"
 
-    li3 = document.createElement("li")
+    let li3 = document.createElement("li")
     li3.innerText = "Palmer's Hair Style Hold"
 
-    li4 = document.createElement("li")
+    let li4 = document.createElement("li")
     li4.innerText = "Baiser India Nourishing Lip Oil "
 
     // li5 = document.createElement("li")
@@ -155,7 +162,7 @@ function reviews(){
     btn.innerText = "write a review"
     btn.onclick =  function writeReview()
     {
-        e = document.getElementById('showform')
+      let e = document.getElementById('showform')
     
 
         if(e.style.display == 'block')

@@ -1,3 +1,10 @@
+document.getElementById("cart").addEventListener("mouseover", change)
+document.getElementById("cart").addEventListener("mouseout", mouseout)
+document.getElementById("desc").addEventListener("click", desc)
+document.getElementById("plans").addEventListener("click", plans)
+document.getElementById("policy").addEventListener("click", policy)
+document.getElementById("reviews").addEventListener("click", reviews)
+
 let btnDetail =  document.getElementById("btnDetail")
 
 
@@ -34,19 +41,19 @@ function desc(){
 
     let ul = document.createElement("ul")
 
-    li1 = document.createElement("li")
+    let li1 = document.createElement("li")
     li1.innerText = "Teen Teen Ceremonial Makeup 8 Color Eyeshadow Kit of your choice!*"
 
-    li2 = document.createElement("li")
+    let li2 = document.createElement("li")
     li2.innerText = "Teen Trendz 5 in 1 Matte Me Lipstick of your choice!*"
 
-    li3 = document.createElement("li")
+    let li3 = document.createElement("li")
     li3.innerText = "Coco Soul Nourishing Body Lotion"
 
-    li4 = document.createElement("li")
+    let li4 = document.createElement("li")
     li4.innerText = "The Soap Company India Saffron Soothing Sorbet"
 
-    li5 = document.createElement("li")
+    let li5 = document.createElement("li")
     li5.innerText = "Bonus*"
    
     ul.append(li1, li2, li3, li4)
@@ -155,7 +162,7 @@ function reviews(){
     btn.innerText = "write a review"
     btn.onclick =  function writeReview()
     {
-        e = document.getElementById('showform')
+      let  e = document.getElementById('showform')
     
 
         if(e.style.display == 'block')

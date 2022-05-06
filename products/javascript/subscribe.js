@@ -1,3 +1,25 @@
+
+document.getElementById("month1").addEventListener("click", month1)
+document.getElementById("month3").addEventListener("click", month3)
+document.getElementById("cart").addEventListener("click", addToCart)
+document.getElementById("cart").addEventListener("mouseover", change)
+document.getElementById("cart").addEventListener("mouseout", mouseout)
+document.getElementById("tablecart1").addEventListener("click", table1)
+document.getElementById("tablecart3").addEventListener("click", table3)
+document.getElementById("desc").addEventListener("click", desc)
+document.getElementById("plans").addEventListener("click", plans)
+document.getElementById("policy").addEventListener("click", policy)
+document.getElementById("reviews").addEventListener("click", reviews)
+
+
+
+
+// <button id="desc" onclick="desc()">DESCRIPTION</button>
+// <button id="plans" onclick="plans()">VIEW PLANS</button>
+// <button id="policy" onclick="policy()">RETURN POLICY</button>
+// <button id="reviews" onclick="reviews()">CUSTOMER REVIEWS</button>
+
+
 let btnDetail =  document.getElementById("btnDetail")
 
 
@@ -34,19 +56,19 @@ function desc(){
 
     let ul = document.createElement("ul")
 
-    li1 = document.createElement("li")
+    let li1 = document.createElement("li")
     li1.innerText = "Liquid Highlighter of your choice!*"
 
-    li2 = document.createElement("li")
+    let li2 = document.createElement("li")
     li2.innerText = "Liquid Lipstick of your choice!*"
 
-    li3 = document.createElement("li")
+    let li3 = document.createElement("li")
     li3.innerText = "Haircare Duo"
 
-    li4 = document.createElement("li")
+    let li4 = document.createElement("li")
     li4.innerText = "Organic Soap"
 
-    li5 = document.createElement("li")
+    let li5 = document.createElement("li")
     li5.innerText = "Bonus*"
    
     ul.append(li1, li2, li3, li4, li5)
@@ -155,7 +177,7 @@ function reviews(){
     btn.innerText = "write a review"
     btn.onclick =  function writeReview()
     {
-        e = document.getElementById('showform')
+        let e = document.getElementById('showform')
     
 
         if(e.style.display == 'block')
@@ -323,10 +345,10 @@ let finalCart =  JSON.parse(localStorage.getItem("cart"))|| []
   
         var cartData = 
             {
-              image_url: "https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Bag-Reveal.gif?v=1651343709",
+              image_url: "https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Makeup-Reveal-2.gif?v=1651724060",
               title: "The AweSummer May Fab Bag 3 Month",
               qty: counter,
-              price: document.getElementById("price").innerText,
+              price: 1599.00,
             //   document.getElementById("qty").innerText
             }
 
@@ -367,10 +389,10 @@ let finalCart =  JSON.parse(localStorage.getItem("cart"))|| []
   
         var cartData = 
             {
-              image_url: "https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Bag-Reveal.gif?v=1651343709",
+              image_url: "https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Makeup-Reveal-2.gif?v=1651724060",
               title: "The AweSummer May Fab Bag 1 Month",
               qty: counter,
-              price: document.getElementById("price").innerText,
+              price: 599.00,
             //   document.getElementById("qty").innerText
             }
 
@@ -428,10 +450,10 @@ let finalCart =  JSON.parse(localStorage.getItem("cart"))|| []
 
       var cartData = 
           {
-            image_url: "https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Bag-Reveal.gif?v=1651343709",
+            image_url: "https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Makeup-Reveal-2.gif?v=1651724060",
             title: "The AweSummer May Fab Bag 1 Month",
             qty: 1,
-            price: "Rs. 599.00",
+            price: 599.00,
           //   document.getElementById("qty").innerText
           }
 
@@ -481,10 +503,10 @@ let finalCart =  JSON.parse(localStorage.getItem("cart"))|| []
 
       var cartData = 
           {
-            image_url: "https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Bag-Reveal.gif?v=1651343709",
+            image_url: "https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Makeup-Reveal-2.gif?v=1651724060",
             title: "The AweSummer May Fab Bag 3 Month",
             qty: 1,
-            price: "Rs. 1,599.00",
+            price: 1599.00,
           //   document.getElementById("qty").innerText
           }
 

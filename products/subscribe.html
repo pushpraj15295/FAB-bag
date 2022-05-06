@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/products.css">
+    <link rel="stylesheet" href="./css/products.css">
     <title>Document</title>
 </head>
 <body>
@@ -22,15 +22,18 @@
          <p>Phew, it's getting hot in here! Unveil the midsummer madness with the hottest beauty staples inside the...</p>
          <p id="plan">Plans</p>
          <div id="buttons">
-             <button id="month1" class="one" onclick="month1()">1 MONTH</button>
-             <button id="month3"  class="three" onclick="month3()">3 MONTH</button>
+             <button id="month1" class="one">1 MONTH</button>
+             <button id="month3"  class="three">3 MONTH</button>
+
+
+
          </div>
          <div id="counter">
             <h3 id="dec">-</h3>
              <p id="qty"></p>
              <h3 id="inc">+</h3>
          </div>
-         <button id="cart" class="cartBtn" onmouseover="change()" onmouseout="mouseout()" onclick="addToCart()">ADD TO CART</button>
+         <button id="cart" class="cartBtn" onclick="addToCart()">ADD TO CART</button>
          <div id="social">
 
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
@@ -57,10 +60,10 @@
 
        <div id="lower"> 
         <div id="lowerBtn">
-            <button id="desc" onclick="desc()">DESCRIPTION</button>
-            <button id="plans" onclick="plans()">VIEW PLANS</button>
-            <button id="policy" onclick="policy()">RETURN POLICY</button>
-            <button id="reviews" onclick="reviews()">CUSTOMER REVIEWS</button>
+            <button id="desc" >DESCRIPTION</button>
+            <button id="plans" >VIEW PLANS</button>
+            <button id="policy" >RETURN POLICY</button>
+            <button id="reviews">CUSTOMER REVIEWS</button>
         </div>
 
         <div id="btnDetail">
@@ -101,7 +104,7 @@
               </div>
       
               <div class="table4">
-                <div class="table41" id="cart"  onclick="table1()">ADD TO CART</div>
+                <div class="table41" id="tablecart1"  onclick="table1()">ADD TO CART</div>
               </div>
             </div>
             <div class="table1">
@@ -118,7 +121,7 @@
                 <h3>Rs. 1,599.00 <strike>Rs. 1,797</strike></h3>
               </div>
               <div class="table4">
-                <div class="table41" id="cart" onclick="table3()">ADD TO CART</div>
+                <div class="table41"  class="table3" id="tablecart3">ADD TO CART</div>
               </div>
             </div>
           </div> 
@@ -164,4 +167,4 @@
 </body>
 </html>
 
-<script src="/javascript/subscribe.js"></script>
+<script src="./javascript/subscribe.js" type="module"></script>
