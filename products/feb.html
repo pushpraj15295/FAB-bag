@@ -5,10 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/products.css">
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/foot.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;1,100&family=Poppins&family=Ubuntu:wght@300&display=swap">  -->
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/common_style.css">
+
     <title>Document</title>
 </head>
 <body>
-   
+
+  <div id="main_header">
+    <div id="header">
+        
+    </div>
+    <!-- header end -->
+    <!-- nav start  -->
+    <div id="navbar">
+    
+    </div>
+</div>
       <div id="upper">
        
       <div id="prodImg">
@@ -145,13 +161,27 @@
           </div>
       
     
-
-
-
+          <div id="footer"></div>
    
 
 
-</body>
-</html>
-
-<script src="./javascript/feb.js" type="module"></script>
+        </body>
+        </html>
+        
+        <script type="module">
+        
+          import {head} from '../components/head.js'
+          document.getElementById("header").innerHTML=head();
+            
+          import {navbar} from '../components/navbar.js'
+          document.getElementById("navbar").innerHTML=navbar();
+        
+          import footerdata from "../components/footer.js";
+        document.getElementById("footer").innerHTML = footerdata();
+        
+          
+         
+        </script>
+        
+        <script src="./javascript/feb.js" type="module"></script>
+        <script src="../scripts/language_menu.js" type="module"></script>
