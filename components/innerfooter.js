@@ -7,14 +7,14 @@ function footerdata(){
           <h4>INFORMATION</h4>
           <br>
           <ul>
-               <li id='abt'><a href="./footer-part/about.html">About Us</a></li>
-               <li><a href="./footer-part/brand.html">Associate Brands</a></li>
-               <li><a href="./footer-part/FAQ.html">FAQ</a></li>
-               <li><a href="./footer-part/collaborate.html">Collaborative with Fab Bag</a></li>
-               <li><a href="./footer-part/contact.html">Contact Us</a></li>
-               <li><a href="./footer-part/return.html">Returns & Refunds</a></li>
-               <li><a href="./footer-part/term.html">Terms & Conditions</a></li>
-               <li><a href="./footer-part/privacy.html">Privecy Policy</a></li>
+               <li id='abt'><a href="../footer-part/about.html">About Us</a></li>
+               <li><a href="../footer-part/brand.html">Associate Brands</a></li>
+               <li><a href="../footer-part/FAQ.html">FAQ</a></li>
+               <li><a href="../footer-part/collaborate.html">Collaborative with Fab Bag</a></li>
+               <li><a href="../footer-part/contact.html">Contact Us</a></li>
+               <li><a href="../footer-part/return.html">Returns & Refunds</a></li>
+               <li><a href="../footer-part/term.html">Terms & Conditions</a></li>
+               <li><a href="../footer-part/privacy.html">Privecy Policy</a></li>
               
           </ul>
 
