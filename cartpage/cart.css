@@ -82,6 +82,7 @@
          /* border: 1px solid black; */
          margin-top: 40px;
          height: 20%;
+         margin-left: 5px;
          
          
          
@@ -92,6 +93,7 @@
           width:80px;
           height: 20%;
           margin-top: 40px;
+          margin-left: 40px;
          
       }
       .qnt_rem_line_box{
@@ -99,7 +101,7 @@
         width: 40%;
         /* border: 1px solid orange; */
         display: flex;
-        margin-top:30px;
+        margin-top:35px;
         margin-left: 20px;
       
        
@@ -107,7 +109,7 @@
     #qnt_box{
         border: 1px solid black;
         width: 100px;
-        height: 35px;
+        height: 40px;
         display: grid;
         grid-template-columns: repeat(4,1fr);
         font-size: 20px;
