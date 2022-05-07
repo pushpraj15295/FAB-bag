@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
+#footer {
+  height: 500px;
+}
 *{
     margin: 0;
     padding: 0;
@@ -13,7 +15,7 @@
     padding-bottom: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.container{
+#foot_div>.container{
    width: 78%;
    height: 360px;
     /* background-color: #f3efef; */
@@ -49,6 +51,9 @@ ul li a{
     text-decoration: none;
     
 }
+.footer-col{
+    background-color:white;
+}
 .footer-col ul li a:hover{
 
    color:sandybrown;
@@ -66,7 +71,7 @@ ul li a{
 #icon{
    
     text-align: center;
-    aspect-ratio: 1/1;
+
 }
 #icon>a{
     /* display:inline; */
@@ -123,14 +128,14 @@ ul li a{
     border-radius: 10px;
     
 }
-button{
+#button{
     padding: 10px;
     border-radius: 10px;
     border: none;
     color: white;
     background-color:sandybrown; 
 }
-button:hover{
+#button:hover{
     color: white;
     background-color:black; 
     cursor: pointer;

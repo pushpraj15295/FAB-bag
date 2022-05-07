@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Poppins:wght@200;400;500&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./styles/common_style.css">
+    <link rel="stylesheet" href="./styles/foot.css">
     <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="./styles/login.css">
     <title>Login</title>
@@ -34,7 +35,7 @@
     <div id="login_div">
         <div></div>
         <div id="login_content">
-            <h1 id="login_heading">Sing In</h1><br>
+            <h1 id="login_heading">Sign In</h1><br>
             <div id="login_fb" class="log padding">
                 <div> <span>Sign in with Facebook</span></div>
                 <div><i class="fa-brands fa-facebook-f"></i></div>
@@ -70,8 +71,12 @@
         </div>
         <div></div>
     </div>
-
+    <footer id="footer"></footer>
 </body>
 </html>
+<script type="module">
+    import footerdata from "./components/footer.js";
+    document.getElementById("footer").innerHTML = footerdata();
+</script>
 <script src="./scripts/login.js" type="module"></script>
 <script src="./scripts/language_menu.js" type="module"></script>

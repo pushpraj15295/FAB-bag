@@ -20,6 +20,10 @@
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
    
 }
+#sakinaka{
+    text-decoration: none;
+    color:#e8bb5f;
+}
 #logo_img{
     height: 50px;
     width: 100%;

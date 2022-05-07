@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./styles/common_style.css">
     <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="./styles/myaccount.css">
+    <link rel="stylesheet" href="./styles/foot.css">
     <title>My Account</title>
 </head>
 <body>
@@ -61,8 +62,12 @@
         <button id="address_btn">view Addresses</button><br><br>
 
     </div>
-
+    <footer id="footer"></footer>
 </body>
 </html>
+<script type="module">
+    import footerdata from "./components/footer.js";
+    document.getElementById("footer").innerHTML = footerdata();
+</script>
 <script src="./scripts/myaccount.js" type="module"></script>
 <script src="./scripts/language_menu.js" type="module"></script>
