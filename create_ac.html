@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./styles/common_style.css">
     <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="./styles/login.css">
+    <link rel="stylesheet" href="./styles/foot.css">
     <title>Create an Account</title>
 </head>
 <body>
@@ -72,8 +73,13 @@
         </div>
         <div></div>
     </div>
+    <footer id="footer"></footer>
 
 </body>
 </html>
+<script type="module">
+    import footerdata from "./components/footer.js";
+    document.getElementById("footer").innerHTML = footerdata();
+</script>
 <script src="./scripts/create_ac.js" type="module"></script>
 <script src="./scripts/language_menu.js" type="module"></script>
