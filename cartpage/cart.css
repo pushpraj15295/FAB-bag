@@ -36,6 +36,7 @@
             height: 40px;
             width: 40%;
             justify-content: start;
+            margin-left: 10px;
         }
         #righttop2{
             display: flex;
@@ -85,12 +86,7 @@
          
          
       }
-      /* #quantity{
-          border:1px solid black;
-          width: 100px;
-          margin: auto;
-          margin-left: -10px;
-      } */
+    
       .price{
           /* border: 1px solid black; */
           width:80px;
@@ -242,24 +238,4 @@
         cursor: pointer;
     }
 
-    /* 
-    
-    
-     */
-    /* 
-    
-    #bottomcont{
-        display: flex;
-        border:1px solid green;
-        height:380px;
-        width: 100%;
-    } */
-    /* #leftcont{
-       border: 1px solid black;
-       height: 390px;
-       width: 60%;
-
-    } */
-    /* 
-    
-    */
+  
