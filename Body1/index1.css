@@ -16,10 +16,10 @@
     /* Slideshow container */
     .slideshow-container {
     max-width: 100%;
-    position: relative;
+    /* position: relative; */
     margin: auto;
     height: 450px;
-    margin-top: 250px;
+    margin-top: 130px;
     }
     #image1 {
     width: 100%;
