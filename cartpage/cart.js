@@ -1,25 +1,4 @@
-//    var total=document.getElementById("rs");
-//    var tp = JSON.parse(localStorage.getItem("cart"));
-//    total.innerText=`Rs.${tp}.00`;
-//    document.getElementById("qty").value=1;
-//    document.getElementById("count").innerText=1;
-//    //=========================
 
-//    function cancel(){};
-
-//    function update(){
-//        let cart =document.getElementById("count");
-//        let qty =document.getElementById("qty").value;
-//        cart.innerText=qty;
-//        let price=tp*qty;
-//        total.innerText=`Rs.${price}.00`;
-
-//    }
-
-//    function gotopayment(){
-//        window.location="checkout.html";
-//    }
-// JSON.parse(localStorage.getItem("cart"))
 
 var cartdata = JSON.parse(localStorage.getItem("cart"));
 var cartData = JSON.parse(localStorage.getItem("cart")) || [];
@@ -151,47 +130,6 @@ function processupdateFunction() {
   window.location.reload();
 }
 function processNextFunction() {
-  window.location.href = "payment_address.html";
+  window.location.href = "../checkout.html";
 }
 
-// let cartDiv=document.querySelector(".list");
-// let total =0;
-// for(let i=0;i<cart.length;i++){
-//     total=total+cart[i].price;
-// }
-// document.querySelector("#rs").innerText=total;
-
-// cart.map(function(el){
-//     let box=document.createElement("div")
-//     box.setAttribute("id","appenddiv")
-
-//     let img=document.createElement("img")
-//     img.src=el.image_url;
-//     img.setAttribute("id","carting")
-
-//     let name=document.createElement("p")
-//     name.innerText=el.title;
-//     name.setAttribute("id","name")
-
-//     let quantity=document.createElement("qty")
-//     quantity.innerText=el.qty;
-//     quantity.setAttribute("id","quantity")
-
-//     let price=document.createElement("p")
-//     price.innerText=el.price;
-//     price.setAttribute("id","price")
-
-//     let btn=document.createElement("button")
-//     btn.setAttribute("id","remove")
-//     btn.addEventListener("click",function(){
-//         remove(el)
-//     })
-
-//     box.append(img,name,quantity,price,btn);
-//     cartDiv.append(box)
-// })
-// function remove(el){
-//     cart.splice(el,1);
-//     localStorage.setItem("items",JSON.stringify(cart));
-//     window.location.reload()
-// }
