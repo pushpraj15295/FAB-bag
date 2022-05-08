@@ -112,7 +112,7 @@ localStorage.setItem("cart", JSON.stringify(finalCart))
 
 tableCart1 = false;
 tableCart3  =  true;
-let finalCart =  []
+let finalCart =  JSON.parse(localStorage.getItem("cart"))|| []
 
     var cartData = 
         {

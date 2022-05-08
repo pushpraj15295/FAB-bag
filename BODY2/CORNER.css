@@ -173,7 +173,8 @@
    overflow: auto;
    background-color: rgb(0, 0, 0);
    background-color: rgba(0, 0, 0, 0.4);
- }
+
+  }
  .modal-content {
    margin: 50px auto;
    border: px solid rgb(94, 24, 24);
@@ -182,9 +183,11 @@
    display: grid;
    grid-template-columns: repeat(2,60% 40%);
    grid-template-rows: repeat(1,100%);
+   margin-top: 10%;
  }
  .modal-content>div{
      border: px solid;
+    
  }
 
 #xman{
@@ -265,6 +268,7 @@ color: rgb(85, 82, 82);
  -ms-overflow-style: none;  /* IE and Edge */
  scrollbar-width: none;  /* Firefox */
  overflow-y: scroll;
+ 
 }
 #line{
  width: 90%;
